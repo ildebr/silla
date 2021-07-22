@@ -78,12 +78,21 @@ body main main.landing-view div.chair-slider div.arrow {
   z-index: 5;
   text-align: center;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+body main main.landing-view div.chair-slider div.arrow > img {
+  height: 75px;
 }
 body main main.landing-view div.chair-slider div.left {
   left: 0px;
+  justify-content: flex-start;
+  margin-left: 15px;
 }
 body main main.landing-view div.chair-slider div.right {
   right: 0px;
+  justify-content: flex-end;
+  margin-right: 15px;
 }
 body main main.landing-view div.chair-slider div.chair-pics {
   height: 95%;
